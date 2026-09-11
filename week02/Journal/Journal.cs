@@ -5,7 +5,7 @@ using System.Text.Json;
 
 public class Journal
 {
-    private List<Entry> Entries = new List<Entry>();
+    public List<Entry> Entries = new List<Entry>();
 
     public void AddEntry(Entry entry)
     {

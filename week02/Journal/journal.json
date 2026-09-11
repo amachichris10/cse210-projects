@@ -23,10 +23,5 @@
     "Date": "2026-09-10",
     "Prompt": "What is something new you learned today?",
     "Text": "How to use JSON to store my data"
-  },
-  {
-    "Date": "2026-09-11",
-    "Prompt": "What is something new you learned today?",
-    "Text": "encapsulation"
   }
 ]

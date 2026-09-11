@@ -2,7 +2,7 @@ using System;
 
 class PromptGenerator
 {
-    private List<string> _prompts = new List<string>
+    public List<string> _prompts = new List<string>
     {
         "What are you grateful for today?",
         "Describe a challenge you faced and how you overcame it.",
