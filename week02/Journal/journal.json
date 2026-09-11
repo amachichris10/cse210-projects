@@ -1,0 +1,32 @@
+[
+  {
+    "Date": "2026-09-10",
+    "Prompt": "Describe a challenge you faced and how you overcame it.",
+    "Text": "AAA"
+  },
+  {
+    "Date": "2026-09-10",
+    "Prompt": "Write about a memorable moment from your day.",
+    "Text": "BBB"
+  },
+  {
+    "Date": "2026-09-10",
+    "Prompt": "What are you grateful for today?",
+    "Text": "CCC"
+  },
+  {
+    "Date": "2026-09-10",
+    "Prompt": "Describe a challenge you faced and how you overcame it.",
+    "Text": "DDD"
+  },
+  {
+    "Date": "2026-09-10",
+    "Prompt": "What is something new you learned today?",
+    "Text": "How to use JSON to store my data"
+  },
+  {
+    "Date": "2026-09-11",
+    "Prompt": "What is something new you learned today?",
+    "Text": "encapsulation"
+  }
+]
