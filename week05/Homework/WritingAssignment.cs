@@ -2,21 +2,15 @@ using System;
 
 class WritingAssignment : Assignment
 {
-    // private string _studentName;
-    // private string _topic;
-    private string _textbookSection;
-    private string _problems;
+    private string _title;
 
-    public WritingAssignment(string studentName, string topic, string textbookSection, string problems) : base(studentName, topic)
+    public WritingAssignment(string studentName, string topic, string title) : base(studentName, topic)
     {
-        _studentName = studentName;
-        _topic = topic;
-        _textbookSection = textbookSection;
-        _problems = problems;
+        _title = title;
     }
 
-    public string GetHomeworkList()
+    public string GetWritingInformation()
     {
-        return $"Student: {_studentName}, Topic: {_topic}, Textbook Section: {_textbookSection}, Problems: {_problems}";
+        return $"{_title} by {GetStudentName()}";
     }
 }
