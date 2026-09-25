@@ -2,18 +2,18 @@ using System;
 
 class Comment
 {
-    private string _author;
+    private string _name;
     private string _text;
 
-    public Comment(string author, string text)
+    public Comment(string name, string text)
     {
-        _author = author;
+        _name = name;
         _text = text;
     }
 
-    public string GetAuthor()
+    public string GetName()
     {
-        return _author;
+        return _name;
     }
 
     public string GetText()

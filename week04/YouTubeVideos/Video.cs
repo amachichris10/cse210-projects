@@ -36,11 +36,11 @@ class Video
         return _lengthInSeconds;
     }
 
-    public void GetComments()
+    public void DisplayComments()
     {
         foreach (var comment in _commentList)
         {
-            Console.WriteLine($"- {comment.GetAuthor()}: {comment.GetText()}");
+            Console.WriteLine($"- {comment.GetName()}: {comment.GetText()}");
         }
     }
 }

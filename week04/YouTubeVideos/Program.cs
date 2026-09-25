@@ -29,6 +29,8 @@ class Program
         videos.Add(video2);
         videos.Add(video3);
 
+        Console.Clear();
+
         foreach (var video in videos)
         {
             Console.WriteLine($"Title: {video.GetTitle()}");
@@ -36,7 +38,7 @@ class Program
             Console.WriteLine($"Length: {video.GetLengthInSeconds()} seconds");
             Console.WriteLine($"Number of Comments: {video.GetNumberOfComments()}");
             Console.WriteLine("Comments:");
-            video.GetComments();
+            video.DisplayComments();
             Console.WriteLine();
         }
     }
