@@ -2,6 +2,7 @@ using System;
 
 abstract class Exercise
 {
+    protected string _name;
     private DateTime _date;
     private double _minutes; // Time in minutes
 
@@ -16,6 +17,10 @@ abstract class Exercise
         Console.WriteLine($"{GetDate()} {GetName()} ({GetMinutes()} min): Distance {GetDistance()} km, Speed: {GetSpeed()} kph, Pace: {GetPace():F2} min/km");
     }
 
+    public void SetName(string name)
+    {
+        _name = name;
+    }
 
     public double GetMinutes()
     {

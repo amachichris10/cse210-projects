@@ -2,7 +2,6 @@ using System;
 
 class Cycling : Exercise
 {
-    private string _name = "Cycling";
     private double _speed; // Speed in kilometers per hour
     private double _pace; // Pace in minutes per kilometer
     private double _distance; // Distance in kilometers
@@ -12,6 +11,7 @@ class Cycling : Exercise
         _speed = speed;
         _distance = _speed * GetMinutes() / 60; // Calculate distance based on speed and time
         _pace = GetMinutes() / _distance; // Calculate pace in minutes per kilometer
+        SetName("Cycling");
     }
 
     public override string GetName()

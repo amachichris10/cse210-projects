@@ -2,13 +2,13 @@ using System;
 
 class Swimming : Exercise
 {
-    private string _name = "Swimming";
     private int _poolLength = 50; // Length of the pool in meters
     private int _laps; // Number of laps swum
 
     public Swimming(int minutes, int laps):base(minutes)
     {
         _laps = laps;
+        SetName("Swimming");
     }
 
     public override string GetName()
