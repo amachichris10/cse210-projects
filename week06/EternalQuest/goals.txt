@@ -1,0 +1,4 @@
+250
+SimpleGoal|Programming assignment|Week 07: Polymorphism|300|True
+EternalGoal|Pray sincerly|Take my time to be give thanks|500
+ChecklistGoal|Help someone else|And do it of my own free will|100|10|10|450

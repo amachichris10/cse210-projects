@@ -1,9 +1,14 @@
 using System;
 
-class Program
+// I showed creativity by adding a colorful animation when the user records
+// a goal event. This includes a spinner and a congratulations text with the amount
+// of points awarded.
+
+public class Program
 {
-    static void Main(string[] args)
+    private static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the EternalQuest Project.");
+        GoalManager goalManager = new GoalManager();
+        goalManager.Start();
     }
 }
